@@ -22,7 +22,28 @@ At the same time, SimpleFast is designed to be powerful and flexible enough for 
 - **DevOps and AWS Integration**: SimpleFast supports robust integration with AWS and other cloud platforms, making it an excellent tool for DevOps. You can easily set up, automate, and manage your cloud-based workflows, from model training and evaluation to deployment and monitoring. With SimpleFast, you can leverage the full power of AWS services, such as EC2 for compute, S3 for storage, and SageMaker for machine learning, to streamline your ML pipeline. This seamless integration simplifies the process of training models on large datasets in the cloud and deploying trained models for inference at scale.
 
 Some [examples](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples.md) here
+- [Hello, World!](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples/hello_world.sfast)
+- [All Features](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples/all_features.sfast)
+- [AWS Integration](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples/aws_integration.sfast)
+- [API Calls](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples/api_calls.sfast)
 
+## Directory Structure:
+```
+simplefast/
+├── src/
+│   ├── lexer.py
+│   ├── parser.py
+│   ├── translator.py
+│   ├── compiler.py
+│   └── main.py
+├── tests/
+│   └── test_simplefast.py
+├── examples/
+│   └── hello_world.sfast
+├── LICENSE
+└── README.md
+
+```
 
 ## File Extension and Compiler
 
