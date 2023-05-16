@@ -1,0 +1,61 @@
+# This is a comment. It's like a note to yourself or to others who read your code!
+
+# Let's start with printing Hello, World! It's like your program's first words!
+print 'Hello, World!'
+
+# Now, let's create a variable. It's like a box where you can keep things!
+let my_favorite_number be 7
+print 'My favorite number is: {my_favorite_number}'
+
+# You can also create a list, which is like a row of boxes!
+let my_favorite_colors be ['red', 'blue', 'green']
+print 'My favorite colors are: {my_favorite_colors}'
+
+# Let's make a function. It's like a little machine that does something for you!
+define function say_hello with parameters name:
+    print 'Hello, {name}!'
+end function
+
+# Now we can use our function!
+say_hello 'Alice'
+
+# We can also create a class. It's like a blueprint for creating objects!
+define class Dog with parameters name, breed:
+    let sound be 'woof'
+
+    define method bark:
+        print '{name} says {sound}!'
+    end method
+end class
+
+# Now we can create a Dog object!
+let my_dog be new Dog 'Rex', 'Golden Retriever'
+my_dog.bark
+
+# Let's do some machine learning! Imagine we have a machine learning library called mlib.
+import mlib
+
+define function train_model with parameters X, y:
+    let model be new mlib.LinearRegression
+    model.fit X, y
+    return model
+end function
+
+# Let's pretend X and y are some data we have. Let's train a model!
+let X be [[1], [2], [3], [4], [5]]
+let y be [2, 4, 6, 8, 10]
+let model be train_model X, y
+
+# Now, we can use the model to predict something!
+let prediction be model.predict [[6]]
+print 'Prediction for input 6: {prediction}'
+
+# Let's try to do some asynchronous I/O. This is like doing many things at the same time!
+define async function fetch_data with parameters url:
+    let response be await http.get url
+    return response.body
+end function
+
+# Now, we can use the fetch_data function to get some data from the internet!
+let data be await fetch_data 'http://example.com/data'
+print 'Data: {data}'
