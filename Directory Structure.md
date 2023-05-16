@@ -1,3 +1,4 @@
+```
 simplefast/
 ├── src/
 │   ├── lexer.py
@@ -11,3 +12,4 @@ simplefast/
 │   └── hello_world.sfast
 ├── LICENSE
 └── README.md
+```
