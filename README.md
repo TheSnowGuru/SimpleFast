@@ -17,6 +17,12 @@ At the same time, SimpleFast is designed to be powerful and flexible enough for 
 - **Static Typing**: SimpleFast is statically typed which helps catch errors at compile time.
 - **Object-Oriented**: SimpleFast supports classes and interfaces, making it suitable for large, complex projects.
 - **Asynchronous I/O**: SimpleFast includes built-in support for asynchronous I/O operations, making it great for web and network programming.
+- **Machine Learning**: SimpleFast integrates with powerful machine learning libraries, allowing users to build, train, and test complex models with just a few lines of code. Whether you're performing simple linear regression or complex ensemble methods, SimpleFast's intuitive syntax and structure makes the process accessible and efficient.
+- **Deep Learning**: With SimpleFast, creating and training deep learning models has never been easier. SimpleFast provides streamlined integration with deep learning libraries, supporting a variety of neural network architectures. From convolutional neural networks (CNNs) for image processing to recurrent neural networks (RNNs) for sequence data, SimpleFast enables you to focus on designing and training your models, not wrestling with syntax.
+- **DevOps and AWS Integration**: SimpleFast supports robust integration with AWS and other cloud platforms, making it an excellent tool for DevOps. You can easily set up, automate, and manage your cloud-based workflows, from model training and evaluation to deployment and monitoring. With SimpleFast, you can leverage the full power of AWS services, such as EC2 for compute, S3 for storage, and SageMaker for machine learning, to streamline your ML pipeline. This seamless integration simplifies the process of training models on large datasets in the cloud and deploying trained models for inference at scale.
+
+Some [examples](https://github.com/TheSnowGuru/SimpleFast/blob/main/examples.md) here
+
 
 ## File Extension and Compiler
 
