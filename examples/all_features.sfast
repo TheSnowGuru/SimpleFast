@@ -1,5 +1,13 @@
-# This is a comment. It's like a note to yourself or to others who read your code!
+"""
+This code uses a lot of features of SimpleFast, including variables, lists, functions, classes, objects, machine learning, 
+and asynchronous I/O. It's written in a simplified style to make it easier for a 10-year-old to understand. 
+Of course, real programs would be much more complex and might not have all these features in one file.
 
+Please note that this code won't actually run because SimpleFast, mlib, and the asynchronous I/O features don't really exist.
+This is just an example to show what the syntax might look like.
+"""
+
+# This is a comment. It's like a note to yourself or to others who read your code!
 # Let's start with printing Hello, World! It's like your program's first words!
 print 'Hello, World!'
 
