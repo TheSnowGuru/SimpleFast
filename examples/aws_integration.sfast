@@ -1,0 +1,17 @@
+# Let's pretend we have an AWS library called awsl.
+import awsl
+
+# First, we need to create an AWS client. Think of this as your key to access AWS!
+let client be new awsl.Client 'my_access_key', 'my_secret_key'
+
+# Now, we can use the client to do things on AWS. Let's create an EC2 instance!
+let instance be client.ec2.create_instance 't2.micro', 'ami-abc123'
+print 'Created EC2 instance with ID: {instance.id}'
+
+# We can also interact with S3. Let's create a bucket!
+let bucket be client.s3.create_bucket 'my-bucket'
+print 'Created S3 bucket with name: {bucket.name}'
+
+# Now, let's upload a file to the bucket!
+bucket.upload_file 'my-file.txt', 'my-file-in-s3.txt'
+print 'Uploaded file to S3!'
