@@ -1,0 +1,11 @@
+# Let's pretend we have an HTTP library called http.
+import http
+
+# We can use the http library to make API calls. Let's make a GET request!
+let response be http.get 'http://example.com/api/resource'
+print 'GET response: {response.body}'
+
+# We can also make a POST request. Let's post some JSON data!
+let data be {'key': 'value'}
+let response be http.post 'http://example.com/api/resource', data
+print 'POST response: {response.body}'
